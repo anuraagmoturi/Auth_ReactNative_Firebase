@@ -9,7 +9,7 @@ const Button = ({ onPress, children }) => {
       <TouchableOpacity onPress={onPress} style={buttonStyle}>
         <Text style={textStyle}>
             {children}
-      </Text>
+        </Text>
       </TouchableOpacity>
   );
 };
